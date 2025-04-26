@@ -10,8 +10,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 231px 640px;
-  max-width: 1920px;
+  margin: 200px ;
+  /* max-width: 1920px; */
 }
 
 /* 배너 */
@@ -61,6 +61,7 @@ label {
   outline: 2px solid #3692FF;
 }
 
+/* eyes */
 .input_wrap {
   position: relative;
 }

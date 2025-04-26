@@ -31,14 +31,9 @@ eyes.forEach((eye) => {//(모아놓은거 하나씩 불러오기)
       eyeIcon.className = 'fas fa-eye-slash';
       passwordInput.type = 'password';
     }
-
-
   });//addEventListener끝
 
 });//forEach함수 끝
-
-
-
 
 //fas fa-eye-slash, fas fa-eye 사용이유  - 이 아이콘 클래스는 Font Awesome이라는 아이콘 라이브러리에서 제공하는 클래스
 // 아이콘 라이브러리리-> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous"/>
