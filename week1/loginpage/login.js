@@ -24,11 +24,11 @@ eyes.forEach((eye) => {//(모아놓은거 하나씩 불러오기)
 
     if (inputWrap.classList.contains('active')) {
       //눈에 슬래시 표시 만들기
-      eyeIcon.className = 'fas fa-eye-slash';
+      eyeIcon.className = 'fas fa-eye';
       //text로 보이게 만들기기
       passwordInput.type = 'text';
     } else {
-      eyeIcon.className = 'fas fa-eye';
+      eyeIcon.className = 'fas fa-eye-slash';
       passwordInput.type = 'password';
     }
 
